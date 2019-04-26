@@ -258,6 +258,12 @@ nav a{
 
 @keyframes navimate{
     from{
-        
+        background-color: white;
     }
+    to{
+        background-color:lightgray;
+    }
+}
+nav a:hover{
+    animation: navimate 1s alternate both linear;
 }
