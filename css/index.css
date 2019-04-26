@@ -205,3 +205,43 @@ nav a{
     align-items: center;
     margin:1.5em;
 }
+
+.about-content{
+    border-bottom:black dashed 1px;
+    padding-bottom:1em;
+    margin-bottom:20px;
+}
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    padding-bottom: 1em;
+    border-bottom:black dashed 1px;
+    width:370px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:600;
+    margin:20px 0;
+}
+.card h2{
+    font-weight: bold;
+}
+.card img{
+    margin-bottom:1em;
+}
+.not-a-button{
+    border:black solid 2px;
+    padding:10px;
+    width:129px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-top:1em;
+}
+
+.closing{
+    padding:45px 0;
+    font-weight:600;
+}
