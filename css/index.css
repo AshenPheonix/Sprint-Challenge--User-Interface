@@ -245,3 +245,12 @@ nav a{
     padding:45px 0;
     font-weight:600;
 }
+@media only screen and (max-width:800px){
+    .cards{
+        flex-wrap:nowrap;
+        flex-direction: column;
+    }
+    .card,.container{
+        max-width: 100%;
+    }
+}
